@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import App from "./components/App.jsx";
 //1. Create a new React app.
 //2. Create a App.jsx component.
 //3. Create a Header.jsx component that renders a <header> element
@@ -12,3 +13,7 @@ import ReactDOM from "react-dom";
 //https://l1pp6.csb.app/
 
 //HINT: You will need to study the classes in teh styles.css file to appy styling.
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(
+    <App />
+);
